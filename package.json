@@ -20,7 +20,8 @@
     "vue": "^3.2.45"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": "prettier --write --ignore-unknown",
+    "*.{js,ts}": "vitest related --run",
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.51.0",
