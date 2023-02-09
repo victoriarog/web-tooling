@@ -11,7 +11,7 @@
     "check": "npx prettier --check .",
     "prepare": "husky install",
     "lint": "eslint src --ext .ts,.vue",
-    "test": "vitest --dom",
+    "test": "vitest --dom --run",
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
@@ -20,8 +20,7 @@
     "vue": "^3.2.45"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown",
-    "*.{js,ts}": "vitest related --run",
+    "**/*": "prettier --write --ignore-unknown"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.51.0",
