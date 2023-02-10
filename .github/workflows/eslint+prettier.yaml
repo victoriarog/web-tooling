@@ -1,17 +1,17 @@
-name: format the code
+name: Formatting code on push
 on: [push]
 jobs:
   test:
-    name: Format code Eslint + Prettier
+    name: Format code with Eslint + Prettier
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '18'
       - name: Install packages
         run: npm i
-      - name: Prettier
-        run: npm run format
-      - name: Lint
+      - name: check with Prettier 
+        run: npm run check
+      - name: Lint code
         run: npm run lint
