@@ -34,8 +34,9 @@ Primary.args = {
   label: 'Button',
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
+export const Medium = Template.bind({});
+Medium.args = {
+  size: 'medium',
   label: 'Button',
 };
 
