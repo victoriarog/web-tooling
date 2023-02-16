@@ -5,6 +5,9 @@ The goal of this Single Page Appliction (SPA) is to showcase buttons that
 do some useless stuff for pure entertainment and nothing else, as I have 
 run out of ideas and inspiration. 
 
+##Link for your enjoyment: 
+[Click me pls](https://zesty-lily-41decc.netlify.app)
+
 ---
 
 ##Installation: 
