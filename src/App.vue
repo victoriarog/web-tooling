@@ -10,7 +10,30 @@ import HelloWorld from "./components/HelloWorld.vue";
   </div>
 
   <div class="card">
-    <h2>Just click me</h2>
-    <button>Click!</button>
+    <h2>just click me</h2>
+    <button>click!</button>
+  </div>
+
+  <div class="card">
+    <h2>Click for emotional damamge</h2>
+    <button>
+      <a href="https://harbour.space/" target="_blank">click</a>
+    </button>
+  </div>
+
+  <div class="card">
+    <h2>Surprise lottery</h2>
+    <button>
+      <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">click</a>
+    </button>
+  </div>
+
+  <div>
+    <br />
+    <br />
+    <br />
+
+    <h2>Thank you for clicking,</h2>
+    <h2>please don't come back</h2>
   </div>
 </template>

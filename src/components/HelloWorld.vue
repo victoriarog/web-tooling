@@ -11,9 +11,9 @@ const count = ref(0);
 
   <div class="card">
     <h2>Click me to count</h2>
-    <p>count is {{ count }}</p>
-    <br />
     <button type="button" @click="count++">click me</button>
     <button type="button" @click="count = 0">reset</button>
+    <br />
+    <p>count is {{ count }}</p>
   </div>
 </template>
