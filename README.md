@@ -7,7 +7,7 @@ run out of ideas and inspiration.
 
 ##Link for your enjoyment:
 [Click me pls](https://zesty-lily-41decc.netlify.app)
-[Storybook here](https://www.chromatic.com/build?appId=63ed1e7029d46728c55748d3&number=3)
+[Storybook here](https://63ed1e7029d46728c55748d3-glllkecjkg.chromatic.com/?path=/story/example-button--primary)
 
 ---
 
